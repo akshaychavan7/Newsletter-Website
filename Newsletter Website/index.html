@@ -1,0 +1,658 @@
+<html>
+
+<head>
+    <title>
+        YOUTHINK
+    </title>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+
+
+    <style>
+        body {
+            position: relative;
+        }
+    </style>
+
+    <script type="text/javascript">
+        function myFunction() {
+
+            alert('Thank you!');
+        }
+
+        function myFunction2() {
+
+            alert('Thank you for your suggestion, we will get back to you soon!');
+        }
+
+        /*function to change the font of page*/
+        function changeFont(fontsname) {
+            document.getElementById("info").style.fontFamily = fontsname
+        }
+    </script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50" id="info">
+
+
+    <div class="container fluid">
+
+        <nav class="navbar navbar-inverse  ">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>                        
+                                    </button>
+                    <a href="#" class="navbar-left"><img src="Images/youthink-logo.png"></a>
+                    <a class="navbar-brand" href="#">YouTHink</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class=""><a href="#Home">Home</a></li>
+                        <li><a href="#section1">Readings</a></li>
+                        <li><a href="#section2" style="background-color:transparent; color:rgb(156, 154, 154)">Editor's Corner</a></li>
+                        <li><a data-toggle="modal" data-target="#subscribeModal">Subscribe</a></li>
+
+
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown">Select Font<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#" onclick="changeFont('calibri')">Calibri</a></li>
+                                <li> <a class="dropdown-item" href="#" onclick="changeFont('times')">Times</a></li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="Home" class="tab-pane fade in active">
+            <div style="margin-top: -4rem">
+                <img src="Images/main3.jpg" alt="Main" class="img-responsive">
+            </div>
+        </div>
+
+        <!-- <img src="Images/youTHink logo 920p.png" alt="YouThink Logo" class="img-responsive"> -->
+
+
+        <hr class="s1" style="padding-top:1%; ">
+
+        <center>
+            <h2 style="color: black; font-family: 'Lato', sans-serif; letter-spacing: 10px;">READINGS</h2>
+        </center>
+        <div id="section1" style="padding-top:60px;padding-bottom:70px; ">
+            <div class="box " style="margin-top: -8rem; ">
+                <div class="container ">
+                    <div class="row ">
+
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+
+                            <div class="box-part text-center ">
+
+
+                                <div class="title ">
+                                    <h4 style="font-family: 'Lato', sans-serif; letter-spacing: 4px;">ROAD AHEAD</h4>
+                                </div>
+
+                                <div class="hovereffect">
+                                    <img class="img-responsive " src="Images/deutsche.png ">
+                                    <div class="overlay">
+                                        <h2>Deutsche Bank: The restructuring</h2>
+                                        <a class="info" href="#" data-toggle="modal" data-target="#past">Read</a>
+                                    </div>
+                                </div>
+
+
+
+                                <br>
+                                <b><i>Deutsche Bank: The restructuring</i></b>
+                                <div class="text ">
+                                    <span>Deutsche Bank, a 150-year-old German multinational investment bank and financial services company headquartered in Frankfurt, Germany.</span>
+                                </div>
+
+                                <a href="#" data-toggle="modal" data-target="#past">Read More</a>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+
+                            <div class="box-part text-center ">
+
+
+                                <div class="title ">
+                                    <h4 style="font-family: 'Lato', sans-serif; letter-spacing: 4px;">LEARNING FROM PAST</h4>
+                                </div>
+
+
+                                <div class="hovereffect">
+                                    <img class="img-responsive " src="Images/lehmann.jpg ">
+                                    <div class="overlay">
+                                        <h2>Lehmann Brothers: The crisis</h2>
+                                        <a class="info" href="#" data-toggle="modal" data-target="#lehmann">Read</a>
+                                    </div>
+                                </div>
+
+
+                                <br>
+                                <b><i>Lehmann Brothers: The crisis</i></b>
+                                <div class="text ">
+                                    <span>2008, The darkest year for the whole economic world! Some say it as ‘Financial crisis’
+                                    year while some say it as ‘Financial Turbulence’,</span>
+                                </div>
+
+                                <a href="#" data-toggle="modal" data-target="#lehmann">Read More</a>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+
+                            <div class="box-part text-center ">
+
+
+                                <div class="title ">
+                                    <h4 style="font-family: 'Lato', sans-serif; letter-spacing: 4px;">NOW OR NEVER</h4>
+                                </div>
+
+
+                                <div class="hovereffect">
+                                    <img class="img-responsive " src="Images/Brexit-Image.jpg ">
+                                    <div class="overlay">
+                                        <h2>Brexit: The inside story</h2>
+                                        <a class="info" href="#" data-toggle="modal" data-target="#brexit">Read</a>
+                                    </div>
+                                </div>
+
+
+
+                                <br>
+                                <b><i>Brexit: The inside story </i></b>
+                                <div class="text ">
+                                    <span>Brexit is an abbreviation for “Britain Exit” or “British Exit”, referring to the United
+                                    Kingdom’s decision in June 23, 2016 referendum</span>
+                                </div>
+
+                                <a href="#" data-toggle="modal" data-target="#brexit">Read More</a>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+
+                            <div class="box-part text-center ">
+
+
+                                <div class="title ">
+                                    <h4 style="font-family: 'Lato', sans-serif; letter-spacing: 4px;">DID YOU KNOW?</h4>
+                                </div>
+
+                                <div class="hovereffect">
+                                    <img class="img-responsive " src="Images/didyou2.png ">
+                                    <div class="overlay">
+                                        <h2>Cause you can't miss this</h2>
+                                        <a class="info" href="#" data-toggle="modal" data-target="#dykModal">Read</a>
+                                    </div>
+                                </div>
+
+
+                                <br>
+                                <b><i>Cause you can't miss this</i></b>
+                                <div class="text ">
+                                    <span>You don't know what you don't know until you know it!<br><br></span>
+                                </div>
+
+                                <a href="#" data-toggle="modal" data-target="#dykModal">Read More</a>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+
+                            <div class="box-part text-center ">
+
+
+                                <div class="title ">
+                                    <h4 style="font-family: 'Lato', sans-serif; letter-spacing: 4px;">LEARNING OPTIONS</h4>
+                                </div>
+
+
+                                <div class="hovereffect">
+                                    <img class="img-responsive " src="Images/options.png ">
+                                    <div class="overlay">
+                                        <h2>You call it, we'll put it</h2>
+                                        <a class="info" href="http://www.optionstrading.org/introduction/what-is-options-trading/">Read</a>
+                                    </div>
+                                </div>
+
+                                <br>
+                                <b><i>You call it, we'll put it</i></b>
+                                <div class="text ">
+                                    <span>When most people think of investment, they think of buying stocks on the stock market, and many are probably completely unaware of terms like options</span>
+                                </div>
+
+                                <a href="http://www.optionstrading.org/introduction/what-is-options-trading/">Read More</a>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+
+                            <div class="box-part text-center ">
+                                <div class="title ">
+                                    <h4 style="font-family: 'Lato', sans-serif; letter-spacing: 4px;">REQUEST/SHARE A TOPIC!</h4>
+                                </div>
+                                <div class="hovereffect">
+                                    <img class="img-responsive " src="Images/request.png ">
+                                    <div class="overlay">
+                                        <h2>Sharing is caring(^.^)</h2>
+                                        <a class="info" href="#" data-toggle="modal" data-target="#requestModal">Share/Request</a>
+                                    </div>
+                                </div>
+
+
+                                <br>
+                                <b><i>Request a topic, cause</i></b>
+                                <div class="text ">
+
+                                    <span>"Gaining knowledge is the first step to wisdom. Sharing it, is the first step of humanity! "</span>
+                                    <p>-Albert Einstein</p>
+
+                                </div>
+
+                                <a data-toggle="modal" data-target="#requestModal">Request</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="s1 " style="padding-top:1%; ">
+
+
+        <div id="section2" style="padding-top:10px;padding-bottom:0px; background-color: rgb(0, 0, 0); ">
+
+            <h2 style="color: white; font-family: 'Lato', sans-serif; letter-spacing: 10px; text-align: center; padding-bottom: 2%;">EDITOR'S CORNER</h2>
+
+
+            <div class="row " style="padding-left: 2%; padding-right: 2%; ">
+
+                <div class="col-md-4 col-sm-6">
+
+                    <div class="box16">
+                        <img src="Images/author.gif">
+                        <div class="box-content">
+                            <h3 class="title">Akshay Chavan</h3>
+                            <span class="post">Web Developer</span>
+                            <ul class="social">
+                                <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.gmail.com"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-sm-6 ">
+                    <h3 style="color: white; font-family:cursive ;font-size: 20px; border-spacing: 5px ; letter-spacing: 1px; ; padding-top: 5%; padding-left: 6%; padding-right: 4%; text-align: center"> Hey there! I'm Akshay Chavan, a technology enthusiast and a web developer. It's my first website and I hope you all will like it.<br> Cheers happy learning together! <br><br><br><br>"Learning never exhausts the mind" <br>- Leonardo
+                        da Vinci </h3>
+                </div>
+
+            </div>
+            <div class="row " style="padding-left: 4%; padding-right: 4%; ">
+                <p></p>
+            </div>
+            <div class="row " style="padding-left: 30%; padding-right: 35%; ">
+
+                <ul style="display: inline;list-style-type: none ">
+                    <li>
+                        <a href="https://www.linkedin.com "><img src="Images/linkedin.png " class="img-responsive " alt="linkedin "> </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com "> <img src="Images/twitter.png " class="img-responsive " alt="twitter "> </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com "> <img src="Images/instagram.png " class="img-responsive " alt="instagram "></a>
+                    </li>
+                    <li>
+                        <a href="https://www.gmail.com "> <img src="Images/google-plus.png " class="img-responsive " alt="google-plus "></a>
+                    </li>
+                    <li>
+                        <a href="https://www.whatsapp.com "> <img src="Images/whatsapp.png " class="img-responsive " alt="whatsapp "></a>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.com "> <img src="Images/pinterest.png " class="img-responsive " alt="pinterest "></a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <!-- Modal for subscribe -->
+    <div class="modal fade " id="subscribeModal" role="dialog">
+        <div class="modal-dialog modal-md " style="width: 22%;">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Subscribe YouTHink Newsletter</h4>
+                </div>
+                <div class="modal-body ">
+                    <div class="container ">
+                        <div class="row ">
+                            <div class="col-md-4 ">
+                                <div class="thumbnail center well well-sm text-center ">
+                                    <h2>YouTHink</h2>
+
+                                    <p>Subscribe to our weekly Newsletter and stay tuned.</p>
+
+                                    <form action=" " method="post " role="form ">
+                                        <div class="input-group ">
+                                            <span class="input-group-addon ">
+                                            <i class="fa fa-envelope "></i>
+                                          </span>
+                                            <input class="form-control " type="text " id=" " name=" " placeholder="your@email.com ">
+                                        </div>
+                                        <input type="submit " value="Subscribe " onclick="myFunction() " class="btn btn-large btn-primary " />
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Modal for request a topic -->
+    <div class="modal fade " id="requestModal" role="dialog">
+        <div class="modal-dialog modal-md " style="width: 22%;">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Request/Share a topic</h4>
+                </div>
+                <div class="modal-body ">
+                    <div class="container ">
+                        <div class="row ">
+                            <div class="col-md-4 ">
+                                <div class="thumbnail center well well-sm text-center ">
+
+                                    <p>Enter your topic here</p>
+
+                                    <form action=" " method="post " role="form ">
+                                        <div class="input-group ">
+                                            <span class="input-group-addon ">
+                                                <i class="fa fa-envelope "></i>
+                                              </span>
+                                            <input class="form-control " type="text " id=" " name=" " placeholder="your topic name ">
+                                        </div>
+                                        <input type="submit " value="Request" onclick="myFunction2() " class="btn btn-large btn-primary " />
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- Modal for Road ahead -->
+    <div class="modal fade" id="past" role="dialog">
+        <div class="modal-dialog modal-md ">
+
+            <!-- Modal content-->
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title ">Deutsche Bank: The restructuring</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container" style="max-width:550px; text-align: justify;">
+                        <p>
+                            Deutsche Bank, a 150-year-old German multinational investment bank and financial services company headquartered in Frankfurt, Germany. Deutsche bank is operational in 58 countries having a large presence in Europe, America as well as in Asia. Currently,
+                            it is serving as the 15th largest bank in the world and as the largest German bank in the world based on the total assets it is holding. The bank has a rich history and have seen many ups and downs during its life. During its
+                            golden period bank has witnessed the peak value of its shares of 112 Euros per share in the year 2006. However, from 2006 onwards its shares have fallen down continuously till the price of a share 6.82 Euros. But a question
+                            remains in everyone’s mind is how come a bank with such a rich history which has already survived World War-I, World War-II and the Financial Crisis of year 2008 has come to such disgraceful position.<br>
+                            <br><br>
+                            <img src="Images/deutsche2.jpg" alt="deutsche bank" class="img-responsive"> <br><br> The downfall of Deutsche Bank actually started from the year 2012. Just like Lehman Brothers, Deutsche Bank was one of the major drivers of
+                            the collateralized debt obligation (CDO) market during the housing credit bubble from 2004 to 2008, creating about $32 billion worth. In January 2014, Deutsche Bank reported a €1.2 billion ($1.6 billion) pre-tax loss for the
+                            fourth quarter of 2013. This came after analysts had predicted a profit of nearly €600 million, according to FactSet estimates. Revenues slipped by 16% versus the prior year. In January 2016, Deutsche Bank pre-announced a 2015
+                            loss before income taxes of approximately €6.1 billion and a net loss of approximately €6.7 billion. In addition to all the bad things, in November 2018, the bank had their Frankfurt offices raided by police in connection with
+                            ongoing investigations about the Panama papers and money laundering.<br> In order to avoid the bankruptcy conditions like Lehman Brothers, the bank has announced its radical restructuring plan. This restructuring plan firstly
+                            involved exit from the global Equities Sales & Trading business. Also, it will restructure the fixed income segment with focus on Rates unit. Deutsche Bank will reduce risk-weighted assets currently allocated to these businesses
+                            by nearly 40%. Secondly, Deutsche Bank remains committed to reducing expenses by undertaking restructuring of businesses and infrastructure as it seeks to reduce adjusted costs to €17 billion in 2022. The lender plans to achieve
+                            this by cutting 18,000 jobs in the next three years. Also, it is targeting a cost income ratio of 70% and post-tax Return on Tangible Equity of 8% by 2022.<br> As per the Deutsche Bank CEO Christian Sewing, this restructuring
+                            would help them to get on the track by 2022 and once again they will have their footprint in the financial sphere.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal for Learning from the past -->
+    <div class="modal fade" id="lehmann" role="dialog">
+        <div class="modal-dialog modal-md ">
+
+            <!-- Modal content-->
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title ">Lehmann Brothers: The crisis</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container" style="max-width:550px; text-align: justify;">
+                        <p>
+                            2008, The darkest year for the whole economic world! Some say it as ‘Financial crisis’ year while some say it as ‘Financial Turbulence’, however September 15, 2008 was more like a doomsday for the whole economic world. One of the leading investment banks
+                            of US and the investment giant, Lehman Brothers collapsed greatly and went bankrupt on this doomsday resulting the whole stock market to get collapsed in a single day.<br>
+                            <br><br>
+                            <img src="Images/lehmann2.jpg" alt="deutsche bank" class="img-responsive"> <br><br> Lehman Brothers, the 160-year-old firm, the investment giants, the bank which survived Civil War, Two World Wars, The Great Depression and
+                            any other great misfortune had gone bankrupt in a single day. It caused wearing down of the $10 trillion in the market capitalization. But the question arises in everyone’s mind that how a market giant having $639 billion assets
+                            value failed to survive and went for bankruptcy.
+                            <br> It all started in the mid 90’s when the US was having dot-com-boom, which caused technology company’s shares get high at their peak point and this bubble burst out during 2000 and 2002. The result of this burst out caused
+                            share markets to fall and investors had no options to invest as markets were bearish. Because of these bearish conditions interest rates were quite low at that time and people went to take loan from banks to buy house. It caused
+                            rise in the real estate market and investors found a new option in the form of real estate to invest. Investment banks took advantage of this market boom and formed a new product called Collateralized Debt Obligation (CDO)
+                            which they used to sell to investors. Lehman Brothers was one of the leading banks which sold most of such CDOs to investors. Lehman obtained mortgage lenders and subprime lenders BNC Mortgage and Aurora Load Services. Lehman
+                            real estate recorded revenues in the capital markets which increase 56% from 2004 to 2006 which grew faster than any other investment bank. Every year Lehman recorded profits which they reported net income of $4.2 billion on
+                            revenue of $19.3 billion.
+                            <br> In 2007 the housing market begins to show signs of slowing down with the defaults of the subprime mortgages which at the time was at a seven-year high. When the credit crisis burst with the failure of hedge funds in Lehman’s
+                            stock dramatically dropped. In order to get out of the crisis, Lehman tried to raise funds by offering their shares, but they couldn’t handle the situation anymore and as a result they had to go for bankruptcy. This led one
+                            of the biggest bankruptcies of all-time surpassing those of the previous bankrupt giants such as Worldcom and Enron with $639 billion assets and $619 billion in debt. This till date is remembered as one of the darkest year
+                            of whole economic sphere.
+
+
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Modal for Now or Never -->
+    <div class="modal fade" id="brexit" role="dialog">
+        <div class="modal-dialog modal-md ">
+
+            <!-- Modal content-->
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title ">Brexit: The inside story</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container" style="max-width:550px; text-align: justify;">
+                        <p>
+
+                            Brexit is an abbreviation for “Britain Exit” or “British Exit”, referring to the United Kingdom’s decision in June 23, 2016 referendum to leave European Union (EU), which is a group of 28 nations together. It all started in 1975, when UKIP (United Kingdom
+                            Independence Party) brought referendum for the first time. The referendum was divided into two parts, that is people can either vote for UK to stay in EU or to leave EU. This first ever referendum resulted in 68% of votes to
+                            stay in EU and since then referendum started to disappear slowly.
+
+                            <br>
+                            <br><br>
+                            <img src="Images/brexit2.jpg" alt="deutsche bank" class="img-responsive"> <br><br> The concept of referendum again came into view in 2015, as the president David Cameron promised to call referendum again to establish trust
+                            in public for Conservative party during the elections. This eventually resulted in a huge win for Conservative party and David Cameron stepped as Prime Minister of UK for the second time. But, to keep his promise he needed
+                            to call the referendum again and voting for referendum took place in entire UK on June 23, 2016. During this voting period Conservative party supported for “stay campaign” while the UKIP party supported for “leave campaign”
+                            which were led by Nigel Farage. On the voting day, the total voting turned out to be 72.2% with more than 30 million people voting for the referendum. The results of this referendum were astonishing where 51.9% people voted
+                            for LEAVE and 48.1% people voted for STAY which turned out the result of referendum as UK to leave the European Union. This result was quite biased according to the regions, where majority of people in England voted for leave,
+                            people in Scotland voted for stay, people in Wales voted for leave and the people in Northern Ireland voted for stay.
+                            <br> After the results of referendum went in the favor of leave, the Prime Minister and Conservative party leader, David Cameron stepped down as party leader and resigned the post of Prime Minister. The former Home Minster
+                            of UK Theresa May stepped as the new Prime Minister of UK on behalf of Conservative party. The results of “Brexit” were quite horrible as the British Pound fall to it’s lowest against the dollar in 30 years. The whole economical
+                            market collapsed after the results of Brexit and it affected the whole world. Experts have their say on Brexit as, the result of Brexit would cause whole world’s economy to fall by 0.5%.
+                            <br> In order to leave EU formally, UK have to pass the Article 50 in their parliament after which UK initially had two years from that date to negotiate a new relationship with EU. This negotiating period extended twice after
+                            the result of referendum and the new Brexit deadline is October 31,2019.
+
+
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal for Learning from past -->
+    <div class="modal fade" id="past" role="dialog">
+        <div class="modal-dialog modal-md ">
+
+            <!-- Modal content-->
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title ">Did you know?</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container" style="max-width:550px; text-align: justify;">
+                        <p>
+                            Deutsche Bank, a 150-year-old German multinational investment bank and financial services company headquartered in Frankfurt, Germany. Deutsche bank is operational in 58 countries having a large presence in Europe, America as well as in Asia. Currently,
+                            it is serving as the 15th largest bank in the world and as the largest German bank in the world based on the total assets it is holding. The bank has a rich history and have seen many ups and downs during its life. During its
+                            golden period bank has witnessed the peak value of its shares of 112 Euros per share in the year 2006. However, from 2006 onwards its shares have fallen down continuously till the price of a share 6.82 Euros. But a question
+                            remains in everyone’s mind is how come a bank with such a rich history which has already survived World War-I, World War-II and the Financial Crisis of year 2008 has come to such disgraceful position.<br>
+                            <br><br>
+                            <img src="Images/did2.jpg" alt="deutsche bank" class="img-responsive"> <br><br> The downfall of Deutsche Bank actually started from the year 2012. Just like Lehman Brothers, Deutsche Bank was one of the major drivers of the
+                            collateralized debt obligation (CDO) market during the housing credit bubble from 2004 to 2008, creating about $32 billion worth. In January 2014, Deutsche Bank reported a €1.2 billion ($1.6 billion) pre-tax loss for the fourth
+                            quarter of 2013. This came after analysts had predicted a profit of nearly €600 million, according to FactSet estimates. Revenues slipped by 16% versus the prior year. In January 2016, Deutsche Bank pre-announced a 2015 loss
+                            before income taxes of approximately €6.1 billion and a net loss of approximately €6.7 billion. In addition to all the bad things, in November 2018, the bank had their Frankfurt offices raided by police in connection with ongoing
+                            investigations about the Panama papers and money laundering.<br> In order to avoid the bankruptcy conditions like Lehman Brothers, the bank has announced its radical restructuring plan. This restructuring plan firstly involved
+                            exit from the global Equities Sales & Trading business. Also, it will restructure the fixed income segment with focus on Rates unit. Deutsche Bank will reduce risk-weighted assets currently allocated to these businesses by
+                            nearly 40%. Secondly, Deutsche Bank remains committed to reducing expenses by undertaking restructuring of businesses and infrastructure as it seeks to reduce adjusted costs to €17 billion in 2022. The lender plans to achieve
+                            this by cutting 18,000 jobs in the next three years. Also, it is targeting a cost income ratio of 70% and post-tax Return on Tangible Equity of 8% by 2022.<br> As per the Deutsche Bank CEO Christian Sewing, this restructuring
+                            would help them to get on the track by 2022 and once again they will have their footprint in the financial sphere.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--did u know modal-->
+
+
+
+
+    <div class="modal fade" id="dykModal" role="dialog">
+        <div class="modal-dialog modal-lg ">
+
+            <!-- Modal content-->
+            <div class="modal-content " style="max-width:700px;height:auto;">
+                <div class="modal-header ">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title ">Did you know?</h4>
+                </div>
+                <div class="modal-body">
+
+                    <img src="Images/money.jpg" class="img-responsive" style="width: 700px">
+                    <br>
+                    <br>
+                    <p align="justify"><strong>1. The NYSE is the largest stock exchange in the world by market cap</strong></p>
+                    <p align="justify">The New York Stock Exchange (NYSE) is massive. But just how big are we talking? Well, with more than 2,400 companies trading on it, and 1.6 billion shares traded every day, it’s a hive of activity. And with a combined market capitalization
+                        of approximately $22.59 trillion (as of March 2018), it significantly dwarfs its nearest rival, the Nasdaq (market cap of around $11 trillion) as the largest stock exchange in the world. Like we said. Massive.</p>
+                    <p align="justify"><strong>2. China’s, on the other hand, isn’t as big as you might think </strong></p>
+                    <p align="justify">When you listen to early-morning financial commentators, they’ll almost always discuss what happened in China while you were tucked up in bed. This level of media coverage might make you think that China’s stock market is a major player,
+                        but the truth is, it’s not. Not yet, anyway. At the moment, it makes up a very small percentage of the global equity market. Only 3.1% to be precise. Compared to the 51.3% the US represents, China has a long way to go. </p>
+
+                    <p align="justify"><strong>3. Unlike October, September is actually a bad month for investing</strong></p>
+                    <p align="justify"></p>
+
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
